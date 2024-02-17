@@ -1,0 +1,79 @@
+.mainblock {
+    border-style: inset;
+    border-width: 7px;
+    display: inline-block;
+    transform: translate(900px, -30px);
+    padding: 20px;
+    background-image: url(hhhjhjrjh);
+    background-size: 449px 355px;
+}
+.canvasblock {
+    border-style:groove;
+    border-width: 7px;
+    display: inline-block;
+    transform: translate(-360px, 85px);
+    background-size: 760px 430px;
+    background-image: url(1648061972_50-gamerwall-pro-p-tetrad-v-kletochku-fon-krasivie-51.jpg);
+}
+.button3 {
+    transform: translate(-230px, 30px);
+}
+
+.inputblock {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.outblock {
+    display: block;
+    font-size: 25px;
+}
+.timeblock {
+    margin-bottom: 10px;
+}
+.heigh {
+    display:  inline;
+}
+.heightext {
+    display:  inline;
+}
+.timetext {
+    display:  inline;
+}
+.time {
+    display:  inline;
+}
+.heighblock {
+    margin-bottom: 10px;
+}
+.distance {
+    display:  inline;
+}
+.distancetext {
+    display:  inline;
+}
+
+.body {
+    margin: 0px;
+    background-image: url(images/cropped-savin-ny-website-background-web.jpg);
+    background-size: 1870px 970px;
+}
+
+.i-1 {
+    font-size:20px;
+}
+.i-2 {
+    font-size:20px;
+}
+.button {
+    font-size:20px;
+}
+.button2 {
+    font-size:20px;
+}
+.anglein {
+    margin-bottom: 8px;
+}
+.speedin {
+    margin-bottom: 8px;
+}
