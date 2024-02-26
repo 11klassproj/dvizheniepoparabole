@@ -21,6 +21,11 @@ function myClick2() {
 let b;
 var canvas = document.getElementById('c1');
 var ctx = canvas.getContext('2d');
+
+function clearCanvas(){
+    window.location.reload();
+} 
+
 var x = 0;
 var timer;
 document.querySelector('.button3').onclick = drawgraph;
