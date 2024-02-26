@@ -77,3 +77,6 @@
 .speedin {
     margin-bottom: 8px;
 }
+.clear {
+    transform: translate(-130px, 30px);
+}
