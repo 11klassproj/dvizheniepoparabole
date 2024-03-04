@@ -30,29 +30,64 @@ var x = 0;
 var timer;
 document.querySelector('.button3').onclick = drawgraph;
 var d = 1;
-var m = 1
+var m = 1;
 
 
 function drawgraph() {
-    if(ar<45){
-        m=2;
+    if(ar<=30 && b<10){
+        m=23;
+        d=0.17;
     }
     else{
-        m=1.5;
-    }
-    if(b>=150){
-        d=50;
-    }
-    else{
-        if(b>=100 && b<150){
-            d=20;
+        if(ar<=30 && b>=10 && b<=20){
+            m=15;
+            d=0.7;
         }
         else{
-            if(b>=50 && b<100){
-                d=10;
+            if(ar<=30 && b>20 && b<=30){
+                m=13;
+                d=1.2;
             }
             else{
-                d=2;
+                if(ar<=30 && b>30 && b<=40){
+                    m=12;
+                    d=2;
+                }
+                else{
+                    if(ar<=30 && b>40 && b<=50){
+                        m=9;
+                        d=3.9;
+                    }
+                    else{
+                        if(ar<=30 && b>50 && b<=70){
+                            m=6;
+                            d=6;
+                        }
+                        else{
+                            if(ar<=30 && b>70 && b<=90){
+                                m=5;
+                                d=9;
+                            }
+                            else{
+                                if(ar<=30 && b>90){
+                                    m=4;
+                                    d=14;
+                                }
+                                else{
+                                    if(ar>=45 && b<30){
+                                        m=10;
+                                        d=10;
+                                    }
+                                    else{
+                                        d=14;
+                                        m=8;
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -61,7 +96,7 @@ function drawgraph() {
 		return;
 	}
 	else {
-		x=x+0.3;
+		x=x+0.1;
 	}
 	ctx.fillRect(m*x,y, 2,2);
 	timer = setTimeout(drawgraph, 0.4);
