@@ -15,9 +15,9 @@ function myClick2() {
     document.getElementById("t").innerHTML = t.toFixed(3);
     let h = b*b*Math.sin(ar)*Math.sin(ar)/9.80665*2;
     document.getElementById("h").innerHTML = h.toFixed(3);
-    let L = b*b*2*Math.sin(ar)*Math.cos(ar)/9.80665;
-    document.getElementById("L").innerHTML = L.toFixed(3);
-    console.log(L);
+    let l = b*b*2*Math.sin(ar)*Math.cos(ar)/9.80665;
+    document.getElementById("l").innerHTML = l.toFixed(3);
+    console.log(l);
 }
 let b;
 var canvas = document.getElementById('c1');
