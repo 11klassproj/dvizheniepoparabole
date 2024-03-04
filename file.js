@@ -17,6 +17,7 @@ function myClick2() {
     document.getElementById("h").innerHTML = h.toFixed(3);
     let L = b*b*2*Math.sin(ar)*Math.cos(ar)/9.80665;
     document.getElementById("L").innerHTML = L.toFixed(3);
+    console.log(L);
 }
 let b;
 var canvas = document.getElementById('c1');
