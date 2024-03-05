@@ -15,6 +15,7 @@ function myClick2() {
     document.getElementById("t").innerHTML = t.toFixed(3);
     let h = b*b*((Math.sin(ar))*Math.sin(ar))/9.80665*2;
     document.getElementById("h").innerHTML = h.toFixed(3);
+	console.log(h);
     let l = b*b*2*Math.sin(ar)*Math.cos(ar)/9.80665;
     document.getElementById("l").innerHTML = l.toFixed(3);
     console.log(l);
